@@ -18,11 +18,11 @@ export default function AboutPage() {
 }
 
 
-AboutPage.getLayout = function getLayout( page:ReactElement ){
+AboutPage.getLayout = function getLayout( page : ReactElement ){
     return(
         <MainLayout>
             <DarkLayout>
-                {page}
+                { page }
             </DarkLayout>
         </MainLayout>
     )

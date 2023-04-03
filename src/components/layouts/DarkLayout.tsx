@@ -1,4 +1,4 @@
-import { PropsWithChildren } from "react"
+import {  PropsWithChildren } from "react"
 
 export const DarkLayout = ({children}:PropsWithChildren) => {
   return (
@@ -8,7 +8,7 @@ export const DarkLayout = ({children}:PropsWithChildren) => {
         padding:'10px',
     }}>
         <h3>Dark Layout</h3>
-            {children}
+            { children }
     </div>
   )
 }

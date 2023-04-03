@@ -1,13 +1,14 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
+import { CSSProperties } from "react";
 
 
-const style_selected ={
+const style_selected:CSSProperties ={
     color:'#0070f3',
     textDecoration: 'underline'
 }
 
-const style_normal ={
+const style_normal:CSSProperties ={
     color:'white'
 }
 
